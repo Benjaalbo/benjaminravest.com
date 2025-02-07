@@ -37,6 +37,9 @@ header {
     min-height: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* 🔹 Texto dentro de las tarjetas */
@@ -61,24 +64,7 @@ header {
     border-radius: 10px;
     border: 3px solid white;
     object-fit: cover; /* Para que la imagen no se deforme */
-}
-
-/* 🔹 Botón de subir archivo */
-.upload-btn {
-    background-color: white;
-    color: #145374;
-    border: none;
-    padding: 10px 15px;
-    font-size: 14px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.upload-btn:hover {
-    background-color: #ffcc00;
-    color: #000;
+    margin: 0 auto; /* Centrar imagen */
 }
 
 /* 🔹 Pie de Página */

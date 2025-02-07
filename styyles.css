@@ -1,49 +1,41 @@
+/* Estilos generales */
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
+/* Encabezado */
 header {
-  background-color: #333;
-  color: white;
-  padding: 20px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
 }
 
-img {
-    width: 100px;  /* Ajusta el ancho de la imagen */
-    height: auto;  /* Mantiene la proporción */
-    display: block;
-    margin: 20px auto; /* Centra la imagen */
-    border-radius: 10px; /* Opcional: bordes redondeados */
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
+/* Secciones */
 section {
-  padding: 20px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Enlace del correo */
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Pie de página */
 footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
 }

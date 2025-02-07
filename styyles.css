@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1d5c7f; /* Fondo azul oscuro */
+    background-color: #f4f4f4; /* Fondo gris claro */
     color: white;
     text-align: center;
 }
@@ -12,37 +12,41 @@ body {
 header {
     font-size: 24px;
     padding: 20px;
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: white;
     font-weight: bold;
 }
 
-/* 🔹 Contenedor Principal */
+/* 🔹 Contenedor Principal con 3 Columnas */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin: 40px auto;
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
 }
 
-/* 🔹 Tarjetas */
+/* 🔹 Tarjetas (Cuadros Azules) */
 .card {
-    background-color: #145374; /* Azul oscuro de las tarjetas */
+    background-color: #145374; /* Azul oscuro */
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     min-height: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
 }
 
 /* 🔹 Texto dentro de las tarjetas */
 .card h2 {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 15px;
 }
 
+/* 🔹 Lista en el primer cuadro */
 .card ul {
     list-style-type: none;
     padding: 0;
@@ -50,14 +54,13 @@ header {
     text-align: left;
 }
 
-/* 🔹 Simulación de Foto */
-.photo-placeholder {
-    background-color: #0d3b5b;
-    color: white;
-    padding: 50px;
+/* 🔹 Imagen de Perfil */
+.profile-pic {
+    width: 150px;  /* Ajusta el tamaño de la imagen */
+    height: 150px;
     border-radius: 10px;
-    margin-top: 10px;
-    font-size: 16px;
+    border: 3px solid white;
+    object-fit: cover; /* Para que la imagen no se deforme */
 }
 
 /* 🔹 Botón de subir archivo */
@@ -83,4 +86,5 @@ footer {
     margin-top: 30px;
     padding: 10px;
     background-color: #0d3b5b;
+    color: white;
 }

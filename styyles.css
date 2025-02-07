@@ -12,7 +12,7 @@ header {
 }
 
 img {
-    width: 200px;  /* Ajusta el ancho de la imagen */
+    width: 100px;  /* Ajusta el ancho de la imagen */
     height: auto;  /* Mantiene la proporción */
     display: block;
     margin: 20px auto; /* Centra la imagen */
